@@ -13,7 +13,7 @@ typedef struct Dict {
     Player **players;
 } Dict;
 
-//creates a linked list, filling it with two sentinal nodes to act as head/tail
+//creates a dictionary
 Dict *dict_create(uint32_t size) {
     Dict *d = (Dict *) malloc(sizeof(Dict));
     if (d) {
